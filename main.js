@@ -2,7 +2,7 @@ import 'babel-polyfill';
 import { LitElement, html, css } from 'lit-element';
 
 const base = 'https://api.up.com.au/api/v1';
-const apikey = process.env.APIKEY;
+const apikey = process.env.UP_API_KEY;
 const headers = { 'Authorization': apikey };
 
 
